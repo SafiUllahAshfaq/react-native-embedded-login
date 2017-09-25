@@ -7,7 +7,7 @@ Copy auth0-params-sample.json as auth0-params.json and setup clientId, domain, a
 - npm install
 - `npm start` or `npm run ios` or `npm run android`
 
-Should be good to go!
+Should be good to go! Please also note that this sample can also be launched / run with [Expo](https://expo.io/)
 
 Optional: For authenticated change password, you will need to also install an API.
 
