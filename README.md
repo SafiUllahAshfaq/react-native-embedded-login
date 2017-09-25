@@ -1,6 +1,6 @@
 ## How to use it
 
-Supports username/password login
+Supports username/password login, forgot password, and change password (authenticated).
 
 Copy auth0-params-sample.json as auth0-params.json and setup clientId, domain, and realm (database connection name).
 
@@ -8,6 +8,14 @@ Copy auth0-params-sample.json as auth0-params.json and setup clientId, domain, a
 - `npm start` or `npm run ios` or `npm run android`
 
 Should be good to go!
+
+Optional: For authenticated change password, you will need to also install an API.
+
+This [api sample](https://github.com/auth0-samples/spring-boot-api-reference) can be used, and is designed for compatibility with this sample.
+
+## How it looks
+
+![](storyboard.gif)
 
 
 This project was bootstrapped with [Create React Native App](https://github.com/react-community/create-react-native-app).
